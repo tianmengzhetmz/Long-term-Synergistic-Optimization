@@ -1,0 +1,15 @@
+Parameter	Value
+Policy network	2-layer MLP, 64 hidden units, ReLU
+Learning rate (policy)	3×10⁻⁴
+Learning rate (value)	1×10⁻³
+Discount factor γ	0.99
+GAE λ	0.95
+PPO clip range ε	0.2
+Inner‑loop learning rate α_in	0.01
+Meta‑batch size M	1
+Inner‑loop steps K	1
+Replay buffer size R	1000
+Total outer iterations J	100
+Total privacy budget ℰ_total	100
+ε_t range	[0.2, 2.0]
+Price range p_t	[0.01, 0.20]
