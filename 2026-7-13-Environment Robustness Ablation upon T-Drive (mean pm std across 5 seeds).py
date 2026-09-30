@@ -194,7 +194,7 @@ def main():
     ]
     names = [
         'Full MAMRL-PDQ (baseline)',
-        'Gaussian LDP (vs. Laplace)',
+        'Gaussian LDP (offers (ε,δ)-DP, vs. Laplace)',
         'Linear demand',
         'Logit demand',
         'Malicious participants (10%)',
